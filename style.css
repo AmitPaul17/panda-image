@@ -1,0 +1,144 @@
+body{
+    background: #6e2594;
+}
+
+.box{
+    position: relative;
+    border: 5px solid #ecd444;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 420px;
+    margin-top: 10%;
+}
+
+.head{
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.head-copy{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 2.5%;
+    left: 2.5%;
+    background: #ffffff;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.right-ear{
+  position: absolute;
+  width: 50%;
+  height: 65%;
+  right: -20%;
+  top: 0;
+  background: #000000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left-ear{
+  position: absolute;
+  width: 50%;
+  height: 65%;
+  left: -20%;
+  top: 0;
+  background: #000000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left-eye{
+    position: absolute;
+    background: #000000;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    left: 21%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.right-eye{
+    position: absolute;
+    background: #000000;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    right: 21%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.eye-inner{
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: #ffffff;
+}
+
+.pupil{
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 65%;
+  left: 36%;
+  border-radius: 50%;
+  background: #000000;
+}
+
+.nose{
+    position: absolute;
+    background: #000000;
+    width: 25%;
+    height: 42.5%;
+    -webkit-clip-path: ellipse(50% 19% at 50% 50%);
+    clip-path: ellipse(50% 19% at 50% 50%);
+    left: 37%;
+    top: 40%;
+    border-radius: 50px;
+    z-index: 4;
+}
+
+.mouth{
+    position: absolute;
+    background: #000000;
+    width: 25%;
+    height: 25.5%;
+    left: 37%;
+    top: 70%;
+    border-radius: 50px;
+    z-index: 4;
+}
+
+.hair-left{
+    position: absolute;
+    top: -8%;
+    left: 30%;
+    width: 20%;
+   height: 20%;
+   background:  #000000;
+   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .hair-right{
+    position: absolute;
+    top: -4%;
+    left: 48%;
+    width: 20%;
+   height: 20%;
+   background:  #000000;
+   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
